@@ -12,7 +12,7 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 
 ---
 
-## **1.1 employees-account-create.ps1**  
+## **1.1 deskundigheden-account-create.ps1**  
 *(HelloID PowerShell v1 en v2)*
 
 1. Open het script.  
@@ -30,11 +30,12 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
    ```
 
 5. Replace All  
-6. **Apply**
+6. Klik op de **preview knop** om te controleren of de wijzigingen correct zijn doorgevoerd
+7. **Apply**
 
 ---
 
-## **1.2 employees-account-update.ps1**  
+## **1.2 deskundigheden-account-update.ps1**  
 *(HelloID PowerShell v1 en v2)*
 
 1. Open het script.  
@@ -52,7 +53,8 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
    ```
 
 5. Replace All  
-6. **Apply**
+6. Klik op de **preview knop** om te controleren of de wijzigingen correct zijn doorgevoerd
+7. **Apply**
 
 ---
 
@@ -60,8 +62,6 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 
 Dit script is alleen van toepassing **indien er een import-script is geplaatst** in de
 HelloID PowerShell v2-connector.
-
-### **1.3.1 Employees – x-stream connect**
 
 1. Open `import.ps1`.  
 2. Druk **Ctrl + H** om Replace te openen.  
@@ -80,34 +80,18 @@ HelloID PowerShell v2-connector.
 5. Replace All  
 6. **Apply**
 
----
-
-### **1.3.2 Contracts – x-stream connect**
-
-1. Druk **Ctrl + H** om Replace te openen.  
-2. Zoek:
+7. Druk **Ctrl + H** om Replace te openen.  
+8. Zoek:
 
    ```
    /t/payroll/contracts/x-stream-connect/
    ```
 
-3. Replace met:
+9. Replace met:
 
    ```
    /v0/xstream/contracts/
    ```
 
-4. Replace All  
-5. **Apply**
-
----
-
-# **2. Controle**
-
-* Controleer dat er geen oude `/t/` endpoints meer in de aangepaste scripts voorkomen.  
-* **Test de deskundigheidsconnector via de business rule logica met een testmedewerker**:
-  - account create  
-  - account update  
-  - (indien van toepassing) import  
-
-Dit bevestigt dat de deskundigheidsconnector de nieuwe v0-endpoints correct gebruikt.
+10. Replace All  
+11. **Apply**
