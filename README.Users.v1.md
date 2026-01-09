@@ -4,7 +4,7 @@ Deze README beschrijft de wijzigingen die nodig zijn om de **Users connector**
 te upgraden naar de nieuwe **Nedap Ons v0 API-endpoints**.
 
 Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via  
-**Ctrl + F → (uitvouwen) Replace → Replace All**.
+**Ctrl + H → Replace → Replace All**.
 
 Voor **alle permissiescripts** geldt altijd:
 
@@ -22,8 +22,8 @@ Voor **alle permissiescripts** geldt altijd:
 ## **1.1 users-account-create.ps1**
 
 1. Open het script.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek:
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
 
    ```
    /t/
@@ -43,8 +43,8 @@ Voor **alle permissiescripts** geldt altijd:
 ## **1.2 users-account-update.ps1**
 
 1. Open het script.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek:
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
 
    ```
    /t/
@@ -65,8 +65,8 @@ Voor **alle permissiescripts** geldt altijd:
 **Permission List script (role)**
 
 1. Open het script.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek:
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
 
    ```
    /t/authorization/
@@ -79,7 +79,7 @@ Voor **alle permissiescripts** geldt altijd:
    ```
 
 5. Replace All  
-6. Ctrl + F → zoek:
+6. Zoek:
 
    ```
    /t/
@@ -100,10 +100,34 @@ Voor **alle permissiescripts** geldt altijd:
 **Permission AllInOne script (role)**
 
 1. Open het script.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek `/t/authorization/` → replace met `/v0/authorization/` → Replace All  
-4. Ctrl + F → zoek `/t/` → replace met `/v0/administration/` → Replace All  
-5. **Apply**
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
+
+   ```
+   /t/authorization/
+   ```
+
+4. Replace met:
+
+   ```
+   /v0/authorization/
+   ```
+
+5. Replace All  
+6. Zoek:
+
+   ```
+   /t/
+   ```
+
+7. Replace met:
+
+   ```
+   /v0/administration/
+   ```
+
+8. Replace All  
+9. **Apply**
 
 ---
 
@@ -111,10 +135,34 @@ Voor **alle permissiescripts** geldt altijd:
 **Permission script Grant (defaultscope)**
 
 1. Open het script.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek `/t/authorization/` → replace met `/v0/authorization/` → Replace All  
-4. Ctrl + F → zoek `/t/` → replace met `/v0/administration/` → Replace All  
-5. **Apply**
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
+
+   ```
+   /t/authorization/
+   ```
+
+4. Replace met:
+
+   ```
+   /v0/authorization/
+   ```
+
+5. Replace All  
+6. Zoek:
+
+   ```
+   /t/
+   ```
+
+7. Replace met:
+
+   ```
+   /v0/administration/
+   ```
+
+8. Replace All  
+9. **Apply**
 
 ---
 
@@ -122,10 +170,34 @@ Voor **alle permissiescripts** geldt altijd:
 **Permission script Update (defaultscope)**
 
 1. Open het script.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek `/t/authorization/` → replace met `/v0/authorization/` → Replace All  
-4. Ctrl + F → zoek `/t/` → replace met `/v0/administration/` → Replace All  
-5. **Apply**
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
+
+   ```
+   /t/authorization/
+   ```
+
+4. Replace met:
+
+   ```
+   /v0/authorization/
+   ```
+
+5. Replace All  
+6. Zoek:
+
+   ```
+   /t/
+   ```
+
+7. Replace met:
+
+   ```
+   /v0/administration/
+   ```
+
+8. Replace All  
+9. **Apply**
 
 ---
 
@@ -133,10 +205,34 @@ Voor **alle permissiescripts** geldt altijd:
 **Permission script Revoke (defaultscope)**
 
 1. Open het script.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek `/t/authorization/` → replace met `/v0/authorization/` → Replace All  
-4. Ctrl + F → zoek `/t/` → replace met `/v0/administration/` → Replace All  
-5. **Apply**
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
+
+   ```
+   /t/authorization/
+   ```
+
+4. Replace met:
+
+   ```
+   /v0/authorization/
+   ```
+
+5. Replace All  
+6. Zoek:
+
+   ```
+   /t/
+   ```
+
+7. Replace met:
+
+   ```
+   /v0/administration/
+   ```
+
+8. Replace All  
+9. **Apply**
 
 ---
 
@@ -144,8 +240,8 @@ Voor **alle permissiescripts** geldt altijd:
 **Resource script**
 
 1. Open het script.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek:
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
 
    ```
    /t/
@@ -159,8 +255,6 @@ Voor **alle permissiescripts** geldt altijd:
 
 5. Replace All  
 6. **Apply**
-
-*(Geen authorization-stap tenzij dit script onverwacht een authorization-call bevat.)*
 
 ---
 

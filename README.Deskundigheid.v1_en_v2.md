@@ -4,7 +4,7 @@ Deze README beschrijft de wijzigingen die nodig zijn om de **Deskundigheidsconne
 te upgraden naar de **Nedap Ons v0 API-endpoints**.
 
 Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via  
-**Ctrl + F → (uitvouwen) Replace → Replace All**.
+**Ctrl + H → Replace → Replace All**.
 
 ---
 
@@ -16,8 +16,8 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 *(HelloID PowerShell v1 en v2)*
 
 1. Open het script.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek:
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
 
    ```
    /t/
@@ -38,8 +38,8 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 *(HelloID PowerShell v1 en v2)*
 
 1. Open het script.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek:
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
 
    ```
    /t/
@@ -64,8 +64,8 @@ HelloID PowerShell v2-connector.
 ### **1.3.1 Employees – x-stream connect**
 
 1. Open `import.ps1`.  
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-3. Ctrl + F → zoek:
+2. Druk **Ctrl + H** om Replace te openen.  
+3. Zoek:
 
    ```
    /t/employees/x-stream-connect/
@@ -84,8 +84,8 @@ HelloID PowerShell v2-connector.
 
 ### **1.3.2 Contracts – x-stream connect**
 
-1. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.  
-2. Ctrl + F → zoek:
+1. Druk **Ctrl + H** om Replace te openen.  
+2. Zoek:
 
    ```
    /t/payroll/contracts/x-stream-connect/

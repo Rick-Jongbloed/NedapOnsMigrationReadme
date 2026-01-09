@@ -4,7 +4,7 @@ Deze README beschrijft de wijzigingen die nodig zijn om de **Nedap Ons Rooster c
 te upgraden naar de nieuwe **Nedap Ons v0 API-endpoints**.
 
 Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via  
-**Ctrl + F → (uitvouwen) Replace → Replace All**.
+**Ctrl + H → Replace → Replace All**.
 
 ---
 
@@ -19,8 +19,8 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 ### **1.1.1 Shift assignments – starting between**
 
 1. Open het script.
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.
-3. Ctrl + F → zoek:
+2. Druk **Ctrl + H** om Replace te openen.
+3. Zoek:
 
    ```
    /t/moves/shift_assignments/starting_between
@@ -39,8 +39,8 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 
 ### **1.1.2 Teams – x-stream connect**
 
-1. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.
-2. Ctrl + F → zoek:
+1. Druk **Ctrl + H** om Replace te openen.
+2. Zoek:
 
    ```
    /t/teams/x-stream-connect/
@@ -59,8 +59,8 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 
 ### **1.1.3 Employees – x-stream connect**
 
-1. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.
-2. Ctrl + F → zoek:
+1. Druk **Ctrl + H** om Replace te openen.
+2. Zoek:
 
    ```
    /t/employees/x-stream-connect/
@@ -79,8 +79,8 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 
 ### **1.1.4 Planned visits per medewerker**
 
-1. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.
-2. Ctrl + F → zoek:
+1. Druk **Ctrl + H** om Replace te openen.
+2. Zoek:
 
    ```
    /t/employees/$($user.id)/planned_visits?valid_from=$script:strStartDatetime&valid_to=$script:strStopDatetime
@@ -104,8 +104,8 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 ### **1.2.1 Teams – x-stream connect**
 
 1. Open het script.
-2. Druk **Ctrl + F** en vouw het zoekvenster uit zodat *Replace* zichtbaar wordt.
-3. Ctrl + F → zoek:
+2. Druk **Ctrl + H** om Replace te openen.
+3. Zoek:
 
    ```
    /t/teams/x-stream-connect/
