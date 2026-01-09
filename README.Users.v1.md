@@ -69,30 +69,17 @@ Voor **alle permissiescripts** geldt altijd:
 3. Zoek:
 
    ```
-   /t/authorization/
+   /t/
    ```
 
 4. Replace met:
 
    ```
-   /v0/authorization/
+   /v0/
    ```
 
 5. Replace All  
-6. Zoek:
-
-   ```
-   /t/
-   ```
-
-7. Replace met:
-
-   ```
-   /v0/administration/
-   ```
-
-8. Replace All  
-9. **Apply**
+6. **Apply**
 
 ---
 
@@ -255,12 +242,4 @@ Voor **alle permissiescripts** geldt altijd:
 
 5. Replace All  
 6. **Apply**
-
----
-
-# **2. Controle**
-
-* Controleer dat alle endpoints correct zijn omgezet.  
-* **Test de Users connector via een retry grant en force update account, retry grant en force update permission defaultscope en retry grant en force update permission role**.
-
-Dit bevestigt dat de Users connector de nieuwe v0-endpoints correct gebruikt.
+ 

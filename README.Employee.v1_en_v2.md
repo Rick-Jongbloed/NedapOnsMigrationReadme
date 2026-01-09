@@ -123,16 +123,3 @@ HelloID PowerShell v2-connector.
 
 4. Replace All  
 5. **Apply**
-
----
-
-# **2. Controle**
-
-* Controleer dat er geen oude `/t/` endpoints meer in de aangepaste scripts voorkomen.  
-* **Test de Employees connector via de business rule logica met een testmedewerker**:
-  - account create  
-  - account update  
-  - account delete  
-  - (indien van toepassing) import  
-
-Dit bevestigt dat de Employees connector de nieuwe v0-endpoints correct gebruikt.

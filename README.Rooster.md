@@ -119,12 +119,3 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 
 5. Replace All
 6. **Apply**
-
----
-
-# **2. Controle**
-
-* Controleer dat er geen oude `/t/` endpoints meer in de scripts voorkomen.
-* **Test de Rooster connector door een import te doen en controleer daarna de wijzigingen in de snapshot data**.
-
-Dit bevestigt dat de Rooster connector de nieuwe v0-endpoints correct gebruikt.
