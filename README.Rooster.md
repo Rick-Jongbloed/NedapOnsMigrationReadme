@@ -8,6 +8,19 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 
 ---
 
+## **💡 Misschien beter om de laatste versie van de koppeling te plaatsen?**
+
+Het is mogelijk **sneller** om:
+1. Een **compare** te doen van de huidige scripts met de nieuwste versie
+2. De **laatste versie van de source connector** te plaatsen (de nieuwe endpoints zijn daar al in verwerkt)
+
+**Let op bij het overnemen van de nieuwe versie:**
+- Vergeet niet ook de **configuratie template** mee te nemen
+- Er is een nieuwe optie toegevoegd voor **expertise profiles (deskundigheden)**
+- **Zet deze optie uit** als deze niet wordt gebruikt
+
+---
+
 # **1. Wijzigingen per script**
 
 ---
