@@ -14,10 +14,6 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
 
 ## **1.1 persons.ps1**
 
----
-
-### **1.1.1 Shift assignments – starting between**
-
 1. Open het script.
 2. Druk **Ctrl + H** om Replace te openen.
 3. Zoek:
@@ -33,67 +29,49 @@ Alle wijzigingen worden **per script afzonderlijk** uitgevoerd via
    ```
 
 5. Replace All
-6. **Apply**
-
----
-
-### **1.1.2 Teams – x-stream connect**
-
-1. Druk **Ctrl + H** om Replace te openen.
-2. Zoek:
+6. Druk **Ctrl + H** om Replace te openen.
+7. Zoek:
 
    ```
    /t/teams/x-stream-connect/
    ```
 
-3. Replace met:
+8. Replace met:
 
    ```
    /v0/xstream/teams/
    ```
 
-4. Replace All
-5. **Apply**
-
----
-
-### **1.1.3 Employees – x-stream connect**
-
-1. Druk **Ctrl + H** om Replace te openen.
-2. Zoek:
+9. Replace All
+10. Druk **Ctrl + H** om Replace te openen.
+11. Zoek:
 
    ```
    /t/employees/x-stream-connect/
    ```
 
-3. Replace met:
+12. Replace met:
 
    ```
    /v0/xstream/employees/
    ```
 
-4. Replace All
-5. **Apply**
-
----
-
-### **1.1.4 Planned visits per medewerker**
-
-1. Druk **Ctrl + H** om Replace te openen.
-2. Zoek:
+13. Replace All
+14. Druk **Ctrl + H** om Replace te openen.
+15. Zoek:
 
    ```
    /t/employees/$($user.id)/planned_visits?valid_from=$script:strStartDatetime&valid_to=$script:strStopDatetime
    ```
 
-3. Replace met:
+16. Replace met:
 
    ```
    /v0/plannen_roosteren/planned_visits/by_employee_id/$($user.id)?from=$script:strStartDatetime&to=$script:strStopDatetime
    ```
 
-4. Replace All
-5. **Apply**
+17. Replace All
+18. **Apply**
 
 ---
 
