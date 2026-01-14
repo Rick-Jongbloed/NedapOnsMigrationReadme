@@ -170,13 +170,10 @@ Voor deze oude variant moet je bij de **users-account-create.ps1**, **users-acco
 
 ## **2.4 Overige scripts (oude variant)**
 
-**Voor de overige scripts volg je de standaard procedure uit sectie 3** (normale variant):
-- 2.4.1 → Zie sectie 3.1: users-permission-role-list.ps1
-- 2.4.2 → Zie sectie 3.2: users-permission-role.ps1
-- 2.4.3 → Zie sectie 3.3: users-permission-defaultscope-grant.ps1
-- 2.4.4 → Zie sectie 3.4: users-permission-defaultscope-update.ps1
-- 2.4.5 → Zie sectie 3.5: users-permission-defaultscope-revoke.ps1
-- 2.4.6 → Zie sectie 3.6: users-resource.ps1
+**Voor de overige scripts volg je de standaard procedure uit [sectie 3](#33-users-permission-role-listps1)** (normale variant):
+- 2.4.1 → Zie [sectie 3.3: users-permission-role-list.ps1](#33-users-permission-role-listps1)
+- 2.4.2 → Zie [sectie 3.4: users-permission-role.ps1](#34-users-permission-roleps1)
+- 2.4.6 → Zie [sectie 3.8: users-resource.ps1](#38-users-resourceps1)
 
 ---
 
