@@ -130,7 +130,7 @@ Voor deze oude variant moet je bij de **users-account-create.ps1**, **users-acco
 <details>
 <summary>
 
-## **2.3 users-account-delete.ps1 (oude variant)** *(indien aanwezig)*
+## **2.3 users-account-delete.ps1 (oude variant)**
 
 </summary>
 
@@ -139,30 +139,17 @@ Voor deze oude variant moet je bij de **users-account-create.ps1**, **users-acco
 3. Zoek:
 
    ```
-   /t/authorization/
+   /t/
    ```
 
 4. Replace met:
 
    ```
-   /v0/authorization/
+   /v0/
    ```
 
 5. Replace All  
-6. Zoek:
-
-   ```
-   /t/
-   ```
-
-7. Replace met:
-
-   ```
-   /v0/administration/
-   ```
-
-8. Replace All  
-9. **Apply**
+6. **Apply**
 
 </details>
 
